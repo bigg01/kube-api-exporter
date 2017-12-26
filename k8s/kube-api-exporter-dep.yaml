@@ -14,4 +14,4 @@ spec:
         image: tomwilkie/kube-api-exporter
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 80
+        - containerPort: 8080

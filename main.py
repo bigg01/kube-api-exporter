@@ -126,7 +126,7 @@ def main():
 
   parser =  optparse.OptionParser("""usage: %prog [options]""")
   parser.add_option("--port",
-    dest="port", default=80, type="int",
+    dest="port", default=8080, type="int",
     help="Port to serve HTTP interface")
   (options, args) = parser.parse_args()
 
